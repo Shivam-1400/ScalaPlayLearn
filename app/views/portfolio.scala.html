@@ -1,0 +1,35 @@
+@(name: String, email: String, contact: String)
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>My Portfolio</title>
+        <style>
+                body { font-family: Arial, sans-serif; margin: 40px; }
+                header { text-align: center; padding: 20px; background-color: #f4f4f4; }
+                .container { max-width: 800px; margin: auto; }
+                .profile-img { width: 150px; border-radius: 50%; }
+        </style>
+    </head>
+    <body>
+
+        <header>
+            <h1>@name</h1>
+            <p>Web Developer</p>
+        </header>
+
+        <div class="container">
+            <img src="profile.jpg" alt="Profile Picture" class="profile-img">
+            <p>Introduction: A passionate web developer with expertise in HTML, CSS, and JavaScript.</p>
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>GET
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+            <h2>Contact: @contact</h2>
+            <p>Email: @email</p>
+        </div>
+
+    </body>
+</html>
